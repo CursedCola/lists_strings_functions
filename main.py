@@ -144,7 +144,7 @@ neewList = ["horse", "crab", "23", "120", "shovel", "rgb", "colors"]
 #1 dimensional means only one item per comma
 avengers = ["Hawkeye", "Hulk", "Iron Man", "Black Panther", "Captain America"]
 multiDimen = [[3,5], [7,6], [6,3], [8,9]]
-print(multiDimen[0][0])
+# print(multiDimen[0][0])
 # multidimensional arrays are more than just 
 # a single list of items
 
@@ -165,8 +165,23 @@ print(multiDimen[0][0])
 # # List functions
 
 # In[ ]:
-
-
+avengers = ["Hawkeye", "Hulk", "Iron Man", "Black Panther", "Captain America"]
+guardiansOfGalaxy = ["Drax", "Rocket Racoon", "Groot", "Starlord", "Gamora"]
+# joined the lists in a new list
+# add two more characters into the new list
+# reverse the list
+# remove one name from the new list
+# find the index of Drax in the new list
+marvel = avengers + guardiansOfGalaxy
+print(marvel)
+marvel.append("spiderman")
+marvel.append("She Hulk")
+print(marvel)
+marvel.reverse()
+print(marvel)
+marvel.remove("She Hulk")
+print(marvel)
+print(marvel.index("Drax"))
 # #Tuples
 
 # In[ ]:
