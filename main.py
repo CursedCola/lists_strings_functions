@@ -20,7 +20,8 @@ fragment =  text[::3]
 # splitting strings
 text2 = "we are learning about splitting strings"
 # print(len(text2))
-# split allows us to split strings into different characters or words
+# split allows us to split strings into 
+# different characters or words
 # print(text2.split())
 splitText = text2.split()
 # print(splitText[4])
@@ -111,17 +112,17 @@ Christmas_guests =["hou", "jessie","Tom"]
 #joins my list 
 #concatenation
 newList = birthday_guests + Christmas_guests
-print(newList)
+# print(newList)
 # ['femi', 'will', 'luis', 'hou', 'jessie', 'Tom']
-print(newList.remove("Tom"))
-print(newList)
+# print(newList.remove("Tom"))
+# print(newList)
 newList.append("Rebecca")
 newList.append("Jose")
 newList.append("James")
-print(newList)
-print(newList[5])
-print(newList.sort())
-print(len(newList))
+# print(newList)
+# print(newList[5])
+# print(newList.sort())
+# print(len(newList))
 
 #remove
 # birthday_guests[0] ="charlie"
@@ -133,14 +134,19 @@ print(len(newList))
 
 
 #.remove(), .append(), sort(), .len() are list functions
-
+neewList = ["horse", "crab", "23", "120", "shovel", "rgb", "colors"]
+# print(neewList)
 
 # In[3]:
 
 
 #also we can define N dimensional list not just 1 dimensional
 #1 dimensional means only one item per comma
-
+avengers = ["Hawkeye", "Hulk", "Iron Man", "Black Panther", "Captain America"]
+multiDimen = [[3,5], [7,6], [6,3], [8,9]]
+print(multiDimen[0][0])
+# multidimensional arrays are more than just 
+# a single list of items
 
 # In[ ]:
 
