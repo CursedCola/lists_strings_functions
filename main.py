@@ -13,17 +13,17 @@
 text = "ABCDEFGHIJKLMNOPQR"
 # substring???
 fragment =  text[::3]
-print(fragment.lower())
+# print(fragment.lower())
 
 
 
 # splitting strings
 text2 = "we are learning about splitting strings"
-print(len(text2))
+# print(len(text2))
 # split allows us to split strings into different characters or words
-print(text2.split())
+# print(text2.split())
 splitText = text2.split()
-print(splitText[4])
+# print(splitText[4])
 
 
 # 1. Understand lists in python programming, 
@@ -110,6 +110,19 @@ Christmas_guests =["hou", "jessie","Tom"]
 
 #joins my list 
 #concatenation
+newList = birthday_guests + Christmas_guests
+print(newList)
+# ['femi', 'will', 'luis', 'hou', 'jessie', 'Tom']
+print(newList.remove("Tom"))
+print(newList)
+newList.append("Rebecca")
+newList.append("Jose")
+newList.append("James")
+print(newList)
+print(newList[5])
+print(newList.sort())
+print(len(newList))
+
 #remove
 # birthday_guests[0] ="charlie"
 
